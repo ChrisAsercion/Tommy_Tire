@@ -1,0 +1,33 @@
+body {
+  background-color:black ;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#logo {
+  width: 20%;
+  height: 20%;
+  padding-right: 20px;
+}
+header {
+  display: flex;
+}
+@media(min-width: 900px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    
+  }
+}
+
+.container img {
+max-width: 100%;
+}
+
+.images {
+  display: flex;
+}
+
+.images img {
+  width: 33%;
+}
