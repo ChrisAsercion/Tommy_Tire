@@ -15,10 +15,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/* flex container
-flex-direction: row; 
-gap */
-
 
 .products img{
   width: 20%;
@@ -78,11 +74,10 @@ max-width: 100%;
   width: 30%;
 }
 @media(min-width: 500px) {
-  footer .container {
+  /* selects the first child div in the container */ 
+  footer .container > div{
     display: flex;
-    justify-content: space-around;
+    gap: 1em;
+    justify-content: space-between;
   }
-}
-footer img {
-  width: 30%;
 }
